@@ -8,6 +8,11 @@ yarn-error.log*
 # Editor directories and files
 .idea
 .vscode
+.babelrc
+.editorconfig
+.eslintrc.js
+.gitignore
+.postcssrc.js
 *.suo
 *.ntvs*
 *.njsproj
