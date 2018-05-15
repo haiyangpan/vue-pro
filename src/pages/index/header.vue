@@ -1,8 +1,10 @@
 <template>
  <div class="header">
-    <div class="back">
-      &lt;
+    <div class="back iconfont">&#xe66a;</div>
+    <div class="search">
+    	<span class="iconfont search-icon">&#xe627;</span>请输入搜索内容说
     </div>
+    <div class="city"></div>
  </div>
 </template>
 
@@ -23,4 +25,16 @@ export default {
        text-align: center
        line-height: .88rem
        color: #fff
+     .search
+     	width 5.18rem
+     	height .6rem
+     	margin .14rem 0
+     	line-height .6rem
+     	background #fff
+     	border-radius .14rem
+     	padding-left .2rem
+     	color #ccc
+     	.search-icon	
+     		width .2rem
+     		height .2rem
 </style>
